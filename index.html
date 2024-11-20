@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Cash Register</title>
+</head>
+<body>
+    <main>
+        <h1>Cash Register Project</h1>
+        <div id="change-due" class="change-due"></div>
+        <div class="input-section">
+            <label for="cash" id="cash-label">Enter cash from costumer</label>
+            <input type="number" id="cash" class="client-cash" value="" aria-labelledby="cash-label">
+            <button type="button" class="purchase-btn" id="purchase-btn" aria-label="Complete purchase">Purchase</button>
+        </div>
+        <div class="drawer" id="drawer">
+            <p class="price-display" id="price-display"></p>
+            <div class="drawer-display" id="drawer-display"></div>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
